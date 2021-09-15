@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~src/variables";
+@import "./scss/bootstrap";
+*{
+    font-family: 'Livvic', sans-serif !important;
+    color: $text-color !important;
+    box-sizing: border-box !important;
+}
