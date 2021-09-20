@@ -1,0 +1,15 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:calc(100vh - 93px);
+    &__wrapper{
+        -webkit-box-shadow: 5px 5px 15px 5px rgba(119, 71, 71, 0.14); 
+        box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.14);
+        padding: 50px;
+        border-radius: 20px;
+    }
+    form{
+        width: 600px;
+    }
+}
